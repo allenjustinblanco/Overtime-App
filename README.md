@@ -1,9 +1,9 @@
 # Overtime App
 
 ## Models
-- Post -> date:date rationale:text
-x User -> Devise
-x AdminUser -> STI
+- x Post -> date:date rationale:text
+- x User -> Devise
+- x AdminUser -> STI
 ## Features:
 - Approval Workflow
 - SMS Sending -> link to approval or overtime input
@@ -11,4 +11,4 @@ x AdminUser -> STI
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 ## UI:
-- Bootstrap -> formatting
+-  x Bootstrap -> formatting
