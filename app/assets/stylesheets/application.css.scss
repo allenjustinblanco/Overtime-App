@@ -5,3 +5,18 @@
 .custom-nav {
 	margin-top: 15px; 
 }
+#notice-wrapper {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background:   rgba(0, 0, 0, 0.7);
+	.alert, .notice {
+	padding: 2rem 0;
+	text-align: center;
+	margin: 0;
+	font-size: 1.25rem;
+	color: #FFF;
+	letter-spacing: 1px;
+	}
+}
