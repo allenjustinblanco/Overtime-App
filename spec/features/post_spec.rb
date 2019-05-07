@@ -50,6 +50,15 @@ describe 'navigate' do
 	    end
 	end
 
+	describe "New" do
+		it "has a link on the navbar" do
+			visit root_path
+
+			click_link("new_post_from_nav")
+			expect(page.status_code).to eq(200)
+		end
+	end
+
 	describe "Edit" do
 		before do
 			@post = FactoryGirl.create(:post)
