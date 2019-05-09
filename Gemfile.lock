@@ -55,6 +55,9 @@ GEM
       momentjs-rails (~> 2.8)
       sass-rails (~> 5.0)
       selectize-rails (~> 0.6)
+    administrate-field-enum (0.0.8)
+      administrate
+      rails (>= 4.2, <= 6.0)
     arel (9.0.0)
     autoprefixer-rails (9.5.1)
       execjs
@@ -263,6 +266,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate (~> 0.11.0)
+  administrate-field-enum
   bootsnap (>= 1.1.0)
   bootstrap-sass (~> 3.4.1)
   bourbon (~> 5.1)
